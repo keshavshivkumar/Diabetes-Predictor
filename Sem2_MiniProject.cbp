@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sem2_MiniProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sem2_MiniProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="genann-master" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sem2_MiniProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/home/manikya/Documents/Sem2_MiniProject/" />
+		</Compiler>
+		<Unit filename="../diabities.csv" />
+		<Unit filename="diabities.csv" />
+		<Unit filename="genann-master/LICENSE" />
+		<Unit filename="genann-master/Makefile" />
+		<Unit filename="genann-master/genann.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="genann-master/genann.h" />
+		<Unit filename="genann-master/minctest.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sonar.csv" />
+		<Unit filename="weights" />
+		<Unit filename="weights.csv" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

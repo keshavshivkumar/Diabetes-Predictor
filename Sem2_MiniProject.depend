@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1552667642 source:/home/manikya/Documents/Sem2_MiniProject/kann/kann.c
+	<math.h>
+	<float.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<stdarg.h>
+	"kann.h"
+	<pthread.h>
+	<xmmintrin.h>
+
+1552667642 /home/manikya/Documents/Sem2_MiniProject/kann/kann.h
+	"kautodiff.h"
+
+1552667642 /home/manikya/Documents/Sem2_MiniProject/kann/kautodiff.h
+	<stdio.h>
+	<stdint.h>
+
+1552667642 source:/home/manikya/Documents/Sem2_MiniProject/kann/kautodiff.c
+	<stdlib.h>
+	<assert.h>
+	<stdarg.h>
+	<string.h>
+	<float.h>
+	<math.h>
+	"kautodiff.h"
+	<xmmintrin.h>
+	<cblas.h>
+
+1536152785 source:/home/manikya/Documents/Sem2_MiniProject/genann-master/example1.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"genann.h"
+
+1536152785 /home/manikya/Documents/Sem2_MiniProject/genann-master/genann.h
+	<stdio.h>
+
+1536152785 source:/home/manikya/Documents/Sem2_MiniProject/genann-master/example2.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"genann.h"
+
+1536152785 source:/home/manikya/Documents/Sem2_MiniProject/genann-master/example3.c
+	<stdio.h>
+	<stdlib.h>
+	"genann.h"
+
+1536152785 source:/home/manikya/Documents/Sem2_MiniProject/genann-master/example4.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<math.h>
+	"genann.h"
+
+1536152785 source:/home/manikya/Documents/Sem2_MiniProject/genann-master/genann.c
+	"genann.h"
+	<assert.h>
+	<errno.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1536152785 source:/home/manikya/Documents/Sem2_MiniProject/genann-master/test.c
+	"genann.h"
+	"minctest.h"
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1536152785 /home/manikya/Documents/Sem2_MiniProject/genann-master/minctest.h
+	<stdio.h>
+	<math.h>
+	<time.h>
+
+1554314741 source:/home/manikya/Documents/Sem2_MiniProject/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<math.h>
+	"genann.h"
+
